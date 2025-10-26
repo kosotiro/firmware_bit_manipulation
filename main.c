@@ -12,7 +12,7 @@
  * @param[in] reg 8-bit register
  * @param[in] pos position for change
  * @param[in] mode clear or set on this position
- * @param[out] area
+ * @param[out] reg modified register
  */
 unsigned char modifyBit(unsigned char reg, int pos, int mode) {
     /* clear the bit */
