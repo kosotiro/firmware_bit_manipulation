@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 unsigned char modifyBit(unsigned char reg, int pos, int mode) {
-    // Write your code here
     /* clear the bit */
     if (!mode)
        reg &= ~(1 << pos);
